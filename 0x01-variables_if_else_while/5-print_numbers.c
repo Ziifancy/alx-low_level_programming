@@ -1,18 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - Prints the numbers from 0-9.
+(*
+ * Return: 0 on success
  */
 int main(void)
 {
-	int i;
-
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-		printf("\n");
-
+	printf("0123456789\n");
 	return (0);
 }
